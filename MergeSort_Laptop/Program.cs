@@ -4,23 +4,6 @@ using System.Threading;
 using System.Linq;
 using System.Collections.Generic;
 
-/* For small arrays, both versions have similar runtimes. For very large arrays, the MultiThreaded seems to be notably more efficient.
-   Duration of singlethread vs multithread sorting for different sized arrays:
-
-        Array Size:      SingleThread Duration:        MultiThread Duration:
-        10                   00:00.03                        00:00.05
-        100                  00:00.05                        00:00.07
-        1000                 00:00.27                        00:00.57
-        10,000               00:04.53                        00:04.65         
-        100,000              00:43.71                        00:37.57       //MT becomes more efficient than ST here   
-        1,000,000            04:38.84                        02:26.80
-        10,000,0000          26:27.78                        16:24.40
- 
-   
-   Speed-up factors:
-
- */
-
 namespace MergeSort
 {
     class Program
