@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Linq;
@@ -14,7 +14,7 @@ namespace MergeSort
             // Queue of 1D arrays to help merge array slices for the multithreaded mergesort variant
             Queue<int[]> arrayQueue = new Queue<int[]>();
 
-            int ARRAY_SIZE = 100;
+            int ARRAY_SIZE = 1000;
             int[] arraySingleThread = new int[ARRAY_SIZE];
 
             for (int i = 0; i < ARRAY_SIZE; i++)
@@ -90,9 +90,7 @@ namespace MergeSort
                 start += piece_length;
             }
 
-            // Now that the array has been sorted in pieces, I need to use Merge on all the sorted piece
-            // Expecting "numThreads" amount of pieces saved in the queue
-            Console.WriteLine("Number of elements = {0}", arrayQueue.Count);
+            // Now that the array has been sorted in pieces, I will use a queue to merge all the sorted piece
 
             int[] temp1;
             int[] temp2;
@@ -125,6 +123,10 @@ namespace MergeSort
                 tsSingle.Seconds, tsSingle.Milliseconds / 10);
             string multithreadTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", tsMulti.Hours, tsMulti.Minutes,
             tsMulti.Seconds, tsMulti.Milliseconds / 10);
+            if(IsSorted(arraySingleThread))
+                Console.WriteLine("Array has been sorted using a single thread!");
+            if(IsSorted(arrayMultiThread))
+                Console.WriteLine("Array has been sorted using multithreading!");
             Console.WriteLine("Singlethread Runtime " + singlethreadTime);
             Console.WriteLine("Multithread Runtime " + multithreadTime);
 
@@ -257,6 +259,5 @@ namespace MergeSort
 
     }
 }
-
 
 
