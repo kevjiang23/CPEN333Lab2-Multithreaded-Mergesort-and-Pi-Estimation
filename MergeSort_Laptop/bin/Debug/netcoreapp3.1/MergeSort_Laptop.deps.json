@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MergeSort_Laptop/1.0.0": {
+        "runtime": {
+          "MergeSort_Laptop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MergeSort_Laptop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
