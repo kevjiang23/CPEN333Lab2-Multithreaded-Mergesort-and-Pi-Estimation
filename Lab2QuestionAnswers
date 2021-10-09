@@ -10,7 +10,7 @@ the MultiThreaded seems to be far faster and more efficient.
         10,000               00:04.53                        00:04.65         
         100,000              00:43.71                        00:37.57       //MT becomes more efficient than ST here   
         1,000,000            04:38.84                        02:26.80
-        10,000,000          26:27.78                        16:24.40
+        10,000,000           26:27.78                        16:24.40
  
    Using Environment.ProcessorCount(); I discovered that my computer had 8 processor/cores.
    Speed-up factors:
