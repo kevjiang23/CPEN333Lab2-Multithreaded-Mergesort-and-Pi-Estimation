@@ -1,4 +1,7 @@
-/* For small arrays, both versions have similar runtimes, with the single threaded mergesort being more efficient. For very large arrays,
+/*
+Part 1: SingleThreaded and MultiThreaded MergeSort
+
+For small arrays, both versions have similar runtimes, with the single threaded mergesort being more efficient. For very large arrays,
 the MultiThreaded seems to be far faster and more efficient.
 
    Duration of singlethread vs multithread sorting for different sized arrays:
@@ -14,5 +17,9 @@ the MultiThreaded seems to be far faster and more efficient.
  
    Using Environment.ProcessorCount(); I discovered that my computer had 8 processor/cores.
    Speed-up factors:
+   
+   Part 2: SingleThreaded and Multithreaded Pi Estimation
+   
+   With a 1000 sized array and a singlethread, my pi estimation is quite close, with estimations including 3.11, 3.14, 3.164 and 3.20 (notable variation). 
 
  */
