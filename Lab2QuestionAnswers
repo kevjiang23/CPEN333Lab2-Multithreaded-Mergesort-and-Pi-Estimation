@@ -38,7 +38,7 @@ the MultiThreaded seems to be faster and more efficient.
    
    With a 1000 sized array and a singlethread, my pi estimation is quite close, with estimations including 3.11, 3.14, 3.164 and 3.20 (notable variation).
    To obtain an estimation consistently close to 3 decimal points, I needed approximately a 10^6 - 10^8 sized sample. Similar to Part 1, my multithreadded pi estimate
-   is faster than my singlethreaded at larger sized arrays. 
+   is faster than my singlethreaded at larger sized arrays (MT outperforms ST at a sample size of 10^5 and above). 
 
    Q1/Q2) I've learned that splitting up work between threads requires some degree of care as sharing resources between them may cause complications. 
    To prevent issues with parallel computing, critical sections and certain objects (such as Random) need to be locked using mutual exception to be threadsafe.
