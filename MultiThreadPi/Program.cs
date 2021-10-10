@@ -36,7 +36,7 @@ namespace pi
             stopWatch.Start();
             for (int i = 0; i < numThreads; i++)
             { 
-                // Generate random, independant samples and keep track of hits 
+                // Generate random, independent samples and keep track of hits 
                 mainThread[i] = new Thread(() => EstimatePI(piecelength, ref hits));
                 mainThread[i].Start();
             }
