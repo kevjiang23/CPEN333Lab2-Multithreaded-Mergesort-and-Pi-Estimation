@@ -1,0 +1,13 @@
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.AssemblyInfoInputs.cache
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.AssemblyInfo.cs
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\MultiThreadPi\bin\Debug\netcoreapp3.1\MultiThreadPi.exe
+C:\Users\kevin\source\repos\MultiThreadPi\bin\Debug\netcoreapp3.1\MultiThreadPi.deps.json
+C:\Users\kevin\source\repos\MultiThreadPi\bin\Debug\netcoreapp3.1\MultiThreadPi.runtimeconfig.json
+C:\Users\kevin\source\repos\MultiThreadPi\bin\Debug\netcoreapp3.1\MultiThreadPi.runtimeconfig.dev.json
+C:\Users\kevin\source\repos\MultiThreadPi\bin\Debug\netcoreapp3.1\MultiThreadPi.dll
+C:\Users\kevin\source\repos\MultiThreadPi\bin\Debug\netcoreapp3.1\MultiThreadPi.pdb
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.dll
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.pdb
+C:\Users\kevin\source\repos\MultiThreadPi\obj\Debug\netcoreapp3.1\MultiThreadPi.genruntimeconfig.cache
