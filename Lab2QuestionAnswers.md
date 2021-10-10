@@ -1,5 +1,5 @@
-/*
-/************************************************** Part 1: SingleThreaded and MultiThreaded MergeSort ********************************************************************/
+
+/*********************** Part 1: SingleThreaded and MultiThreaded MergeSort *******************************/
 
 For small arrays, both versions have similar runtimes, with the single threaded mergesort being more efficient. For very large arrays,
 the MultiThreaded seems to be faster and more efficient.
@@ -34,7 +34,7 @@ the MultiThreaded seems to be faster and more efficient.
    reasons mentioned above (overhead and such) which may actually end up slowing the system down
   
   
-  /**************************************************  Part 2: SingleThreaded and Multithreaded Pi Estimation ************************************************************/
+  /************************  Part 2: SingleThreaded and Multithreaded Pi Estimation ******************************/
    
    With a 1000 sized array and a singlethread, my pi estimation is quite close, with estimations including 3.11, 3.14, 3.164 and 3.20 (notable variation).
    To obtain an estimation consistently close to 3 decimal points, I needed approximately a 10^6 - 10^8 sized sample. Similar to Part 1, my multithreadded pi estimate
@@ -45,6 +45,5 @@ the MultiThreaded seems to be faster and more efficient.
    These are all details that I will need to keep in mind when designing concurrent code. 
    
    Q3) Since I needed ~10^7 samples to get an accurate estimation of pi to 3 decimal places, I will likely need an extremely large sample size to get an accuracy of 7 
-   (something like 10^15 samples maybe) that will be difficult to run with my code. Given how many decimals pi has, it will be very difficult for the random nature of Monte Carlo 
-   simulations to provide a very accurate estimation.
- */
+   (something like 10^15 samples maybe) that will be difficult to run with my code. Given how many decimals pi has, it will be very difficult for the random nature of Monte Carlo simulations to provide a very accurate estimation.
+
