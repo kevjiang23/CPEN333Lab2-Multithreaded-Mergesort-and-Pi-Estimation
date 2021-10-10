@@ -20,6 +20,7 @@ the MultiThreaded seems to be far faster and more efficient.
    
    Part 2: SingleThreaded and Multithreaded Pi Estimation
    
-   With a 1000 sized array and a singlethread, my pi estimation is quite close, with estimations including 3.11, 3.14, 3.164 and 3.20 (notable variation). 
+   With a 1000 sized array and a singlethread, my pi estimation is quite close, with estimations including 3.11, 3.14, 3.164 and 3.20 (notable variation).
+   To obtain an estimation consistently close to 3 decimal points, I needed approximately a 10^6 - 10^7 sized sample.
 
  */
