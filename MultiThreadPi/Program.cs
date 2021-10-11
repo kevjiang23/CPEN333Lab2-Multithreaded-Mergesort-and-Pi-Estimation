@@ -30,7 +30,7 @@ namespace pi
             hits = 0;
 
             /**************** Multi-threaded Pi Estimate ****************/
-            // PC has 8 cores; meaning it can handle 2 * 8 = 16 threads in total
+            // PC has 8 cores; meaning it is ideal to have 2 * 8 = 16 threads in total
             Console.WriteLine("Number of Cores: {0}", Environment.ProcessorCount);
             long piecelength = (numberOfSamples / (long) numThreads);
             stopWatch.Start();
